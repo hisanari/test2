@@ -102,12 +102,6 @@ go test -v -coverprofile=coverage.out ./...
 go tool cover -html=coverage.out -o coverage.html
 ```
 
-### テストカバレッジ
-
-- **総合カバレッジ**: 75.0%
-- **Mermaidパーサー**: 89.1%
-- **Draw.io生成器**: 92.7%
-- **コマンド**: 100%
 
 ### ビルド
 
