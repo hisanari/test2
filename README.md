@@ -10,32 +10,6 @@ MermaidのシーケンスダイアグラムをDraw.io形式に変換するコマ
 - 線や矢印を自由に編集可能
 - Draw.ioで直接開いて編集可能
 
-## プロジェクト構造
-
-```
-├── cmd/
-│   └── cli-tool/           # メインアプリケーション
-│       ├── main.go
-│       └── main_test.go
-├── internal/
-│   ├── mermaid/           # Mermaidパーサー
-│   │   ├── parser.go
-│   │   └── parser_test.go
-│   ├── drawio/            # Draw.io XML生成
-│   │   ├── generator.go
-│   │   └── generator_test.go
-│   └── commands/          # 旧コマンドロジック
-│       ├── commands.go
-│       └── commands_test.go
-├── bin/                   # ビルド出力
-├── test_input.mmd        # テスト用入力ファイル
-├── coverage.out          # テストカバレッジ
-├── coverage.html         # カバレッジレポート
-├── .gitignore
-├── go.mod
-└── README.md
-```
-
 ## インストール
 
 ```bash
